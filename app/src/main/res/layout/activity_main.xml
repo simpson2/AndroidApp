@@ -22,6 +22,7 @@
             android:textSize="25sp"/>
 
         <EditText
+            android:id="@+id/textMessage"
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="45dp"
@@ -34,6 +35,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:text="@string/button"
+            android:onClick="showToast"
             />
     </LinearLayout>
 
