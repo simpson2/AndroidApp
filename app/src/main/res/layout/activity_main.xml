@@ -35,7 +35,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:text="@string/button"
-            android:onClick="showToast"
+            android:onClick="submitText"
             />
     </LinearLayout>
 

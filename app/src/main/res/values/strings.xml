@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">App1</string>
     <string name="hello_world">Hello World</string>
-    <string name="user_name">Enter name here</string>
+    <string name="user_name">Enter text here</string>
     <string name="button">Button</string>
+    <string name="user_entered">You entered:</string>
+    <string name="returned_text">%s</string>
 </resources>
