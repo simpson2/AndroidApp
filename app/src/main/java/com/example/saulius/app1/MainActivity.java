@@ -16,18 +16,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static final String TEXT_OUT = "text_out";
-    public void submitText(View view) {
+    public void sendText(View view) {
 
-        EditText inputMessage = findViewById(R.id.textMessage);
-        String tMessage = inputMessage.getText().toString();
+        EditText inputMessage = findViewById(R.id.Message);
+        String message = inputMessage.getText().toString();
 
-        if(tMessage.equals("")) {
+        if(message.equals("")) {
             Toast.makeText(this, "Please enter text before proceeding.", Toast.LENGTH_SHORT).show();
         }
         else {
-            Intent textOut = new Intent(this, SecondActivity.class);
-            textOut.putExtra(TEXT_OUT, tMessage);
-            startActivity(textOut);
+            Intent sendText = new Intent(this, SecondActivity.class);
+            sendText.putExtra(TEXT_OUT, message);
+            startActivity(sendText);
         }
     }
 }

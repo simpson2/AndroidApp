@@ -11,6 +11,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         showText();
+
     }
 
     private static final String TEXT_OUT = "text_out";
