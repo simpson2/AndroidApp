@@ -14,7 +14,6 @@ public class SecondActivity extends AppCompatActivity {
 
     }
 
-    //private static final String TEXT_OUT = "text_out";
     public void showText() {
 
         TextView dispText = findViewById(R.id.dispText);
