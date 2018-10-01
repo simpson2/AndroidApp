@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private static final String TEXT_OUT = "text_out";
+    public static final String TEXT_OUT = "text_out";
     public void sendText(View view) {
 
         EditText inputMessage = findViewById(R.id.Message);
