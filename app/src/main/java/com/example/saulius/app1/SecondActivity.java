@@ -1,7 +1,9 @@
 package com.example.saulius.app1;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
@@ -20,5 +22,10 @@ public class SecondActivity extends AppCompatActivity {
         String s = getIntent().getStringExtra(MainActivity.TEXT_OUT);
 
         dispText.setText(s);
+    }
+
+    public void sendToSpinners(View v) {
+        Intent spinners = new Intent(this, Test.class);
+        startActivity(spinners);
     }
 }

@@ -5,4 +5,19 @@
     <string name="button">Button</string>
     <string name="user_entered">You entered:</string>
     <string name="returned_text">%s</string>
+    <string name="reminder">Reminder name</string>
+    <string name="done">Done</string>
+    <string name="select_planet">Select a planet</string>
+
+    <string name="goToSpinners">Click for Spinners</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 </resources>

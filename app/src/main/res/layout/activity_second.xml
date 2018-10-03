@@ -28,6 +28,14 @@
             android:textSize="25sp"
             android:gravity="center"
             android:text="@string/returned_text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/goToSpinners"
+            android:onClick="sendToSpinners"
+            />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
