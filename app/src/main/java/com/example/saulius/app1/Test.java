@@ -14,7 +14,7 @@ public class Test extends AppCompatActivity implements AdapterView.OnItemSelecte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
-        Spinner planets = findViewById(R.id.planets);
+        Spinner planets = findViewById(R.id.planets);   
         planets.setOnItemSelectedListener(this);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.planets_array, android.R.layout.simple_spinner_item);

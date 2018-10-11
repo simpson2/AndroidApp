@@ -5,38 +5,48 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp" >
 
-    <EditText
-        android:inputType="text"
-        android:id="@+id/name"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/select_planet"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/reminder"
-        android:gravity="center"/>
+        android:layout_alignParentStart="true"
+        android:text="@string/select_planet"
+        android:textSize="20sp"
+        />
 
     <Spinner
         android:id="@+id/planets"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/name"
+        android:layout_below="@id/select_planet"
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@+id/times"
-        android:spinnerMode="dialog"
-        android:prompt="@string/select_planet"
-        android:entries="@array/planets_array"/>
+        android:spinnerMode="dropdown"
+        android:entries="@array/planets_array"
+        />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/planets"
+        android:text="@string/select_age"
+        android:textSize="20sp"
+        />
 
     <Spinner
         android:id="@id/times"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/name"
+        android:layout_below="@id/age"
         android:layout_alignParentEnd="true"
         android:spinnerMode="dropdown"/>
 
     <Button
         android:layout_width="96dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/times"
-        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:text="@string/done"/>
 
 </RelativeLayout>

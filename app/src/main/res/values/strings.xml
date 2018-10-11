@@ -10,6 +10,7 @@
     <string name="select_planet">Select a planet</string>
 
     <string name="goToSpinners">Click for Spinners</string>
+    <string name="select_age">Select age</string>
     <string-array name="planets_array">
         <item>Mercury</item>
         <item>Venus</item>
